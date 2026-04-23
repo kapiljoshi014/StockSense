@@ -1,0 +1,49 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #e2e8f0;
+}
+
+.label {
+    -fx-text-fill: #e2e8f0;
+}
+
+.card {
+    -fx-background-color: #1e293b;
+    -fx-padding: 16;
+    -fx-background-radius: 10;
+}
+
+.sidebar {
+    fx-background-color: #111827;
+    -fx-padding: 16;
+    -fx-spacing: 12;
+}
+
+.table-view {
+    -fx-base: #1e293b;
+    -fx-control-inner-background: #1e293b;
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #e2e8f0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #334155;
+}
+
+.text-field, .date-picker, .password-field, .combo-box {
+    -fx-control-inner-background: #334155;
+    -fx-text-fill: #e2e8f0;
+}
+
+.primary-button {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
+
+.danger-button {
+    -fx-background-color: #ef4444;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
